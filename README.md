@@ -1,0 +1,1 @@
+probably don't use this but if you do, note that the laziest approach to configuration is used: the [`include_str!`](https://doc.rust-lang.org/std/macro.include_str.html) macro. this means that configuration files are read at _compile time_.
